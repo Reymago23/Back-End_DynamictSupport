@@ -11,7 +11,7 @@ $mysqli = new mysqli("localhost", "mtechwor_dynamic", "dynamict123.", "mtechwor_
       printf("Error: %s\n", $mysqli->connect_errno);
       exit();
   }else{
-
+    echo "Conexion";
     return $mysqli;
   }
 
