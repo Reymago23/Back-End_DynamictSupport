@@ -4,7 +4,7 @@ header( 'Content-Type: text/html; charset=utf-8' );
 
 function conectar(){
 
-$mysqli = new mysqli("localhost", "mtechwor_dynamic", "dynamict123.", "mtechwor_dynamict");
+$mysqli = new mysqli("mtechworks.net", "mtechwor_dynamic", "dynamict123.", "mtechwor_dynamict");
 
   if ($mysqli->connect_errno) {
       printf("Connect failed: %s\n", $mysqli->connect_error);
