@@ -10,8 +10,10 @@ $comando = "INSERT INTO  Usuario (Nivel, Correo, Usuario, Contrasenia) VALUES (0
 if(ejecutarSQLCommand($comando))
 {
   printf("<script>alert('Inserción exitósa!');</script>");
+  printf("<script>window.location = '../Front-End_DynamictSupport/index.php'</script>");
 }else{
   printf("<script>alert('Ocurrió un error!');</script>");
+  printf("<script>window.location = '../Front-End_DynamictSupport/index.php'</script>");
 }
 
 
