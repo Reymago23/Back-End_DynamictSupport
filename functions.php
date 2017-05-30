@@ -9,6 +9,9 @@ ini_set('max_execution_time', 0);
 
 require('conexion.php');
 
+/*
+* Ejecutar comandos de tipo Delete, Update, Insert
+*/
 function ejecutarSQLCommand($commando){
 
   $mysqli = conectar();
@@ -28,6 +31,10 @@ function ejecutarSQLCommand($commando){
   }
 }
 
+
+/*
+* Metodo para ejecutar consultas de tipo Select
+*/
 function getSQLResultSet($commando){
 
 	$mysqli = conectar();

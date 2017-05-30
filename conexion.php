@@ -2,6 +2,8 @@
 
 header( 'Content-Type: text/html; charset=utf-8' );
 
+
+//TODO: RETORNA LA CONEXION
 function conectar(){
 
 $mysqli = new mysqli("mtechworks.net", "mtechwor_dynamic", "dynamict123.", "mtechwor_dynamict");
