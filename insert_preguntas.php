@@ -6,6 +6,8 @@ $Descripcion = $_REQUEST['Descripcion'];
 
 require_once('functions.php');
 
+
+
 $commando = "INSERT INTO Pregunta(Dispositivo, Nombre, Descripcion) VALUES";
 $commando = $commando . "($IdDispositivo, '$Pregunta', '$Descripcion');";
 

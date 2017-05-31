@@ -4,6 +4,8 @@ $usuario=$_GET['usuario'];
 $email=$_GET['email'];
 $contrasenia=$_GET['contrasenia'];
 
+header( 'Content-Type: text/html; charset=utf-8' );
+
 require('functions.php');
 
 $comando = "INSERT INTO  Usuario (Nivel, Correo, Usuario, Contrasenia) VALUES (0, '$email', '$usuario', '$contrasenia')";

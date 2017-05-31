@@ -7,6 +7,7 @@ $telefono = $_REQUEST['telefono'];
 $idpuestodepartamento = $_REQUEST['idpuestodepartamento'];
 
 require('functions.php');
+header( 'Content-Type: text/html; charset=utf-8' );
 
 
 $comando = "INSERT INTO Empleado(Nombre, Apellido, Edad, Telefono, IdPuestoDepartamento)";
