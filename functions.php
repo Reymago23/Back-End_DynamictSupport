@@ -42,9 +42,9 @@ function getSQLResultSet($commando){
 		exit();
 	}else{
 
-		$rq = $mysqli->mysqli_query($commando);
+		$request = $mysqli->mysqli_query($commando);
 
-		return $rq;
+		return $request;
 	}
 	$mysqli->close();
 }
